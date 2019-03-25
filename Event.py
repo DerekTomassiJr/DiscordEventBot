@@ -42,3 +42,14 @@ class Event:
         self.joinedUsers += 1
         self.joinedUserList.append(user)
     #end newUserJoined()
+    
+    def getNotificationString(self):
+    	return f"""@everyone
+    	-----------------------------
+    	!!!New event created!!! 
+    	Event: {self.title} 
+    	Made by: {self.author} 
+    	Game: {self.game}  
+    	Starts at: {self.startTime}
+    	User limit: {self.userLimit}
+    	------------------------------"""  
