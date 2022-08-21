@@ -21,10 +21,10 @@ class EventBot:
 
     def __init__(self, client):
         self.client = client
-        self.generalId = 554882293194555397
-        self.commandsId = 557855504416636931
-        self.eventCommandsId = 555094463907758090
-        self.botToken = "NTU3ODQ3MjcwODM4NzYzNTIx.XKIMSA.Bs2UXTlPTd756a7qHrbm29A0J6o"
+        self.generalId = None
+        self.commandsId = None
+        self.eventCommandsId = None
+        self.botToken = "put token here"
     
     """ Initializes the bot in the server """
     def run(self):
